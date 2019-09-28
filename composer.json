@@ -1,6 +1,6 @@
 {
     "name": "dominicwatts/customerinfo",
-    "description": "",
+    "description": "Magento 2 additional info on customer grid - last logged in and last order date",
     "type": "magento2-module",
     "license": "proprietary",
     "version": "1.0.0",
