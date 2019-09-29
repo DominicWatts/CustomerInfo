@@ -17,3 +17,7 @@ Additional columns appear in admin grid
 ![Screenshot](https://i.snipboard.io/UcAuO7.jpg)
 
 Note: last order value will only come through if customer has logged in or record for login has not been wiped
+
+If new colums appear after action column in admin customer grid run the following cleanup query
+
+`DELETE FROM ui_bookmark WHERE namespace = 'customer_listing'`
